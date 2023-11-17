@@ -6,6 +6,7 @@ interface User {
 }
 
 const UsersPage = async () => {
+  
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
 
   // this is only in fetch function.. 
